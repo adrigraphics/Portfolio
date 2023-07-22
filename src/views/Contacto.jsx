@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaInstagram, FaBehance, FaGithub } from 'react-icons/fa'
 
 const Contacto = () => {
     return (
-        <div id="contacto" className="w-full z-40 flex py-12 bg-[#1F2041] ">
+        <div id="contacto" className="w-full z-40 flex py-12 bg-[#2b2048] ">
             <div className="flex justify-center w-[860px] ml-auto mr-auto gap-[1rem] p-4 flex-col">
 
                 <div className="titulo flex items-center gap-2">

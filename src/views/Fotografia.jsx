@@ -1,11 +1,13 @@
 import React from 'react'
 import { MdPhotoCamera } from 'react-icons/md'
-import Santo from '../components/Santo'
+import Veinti from '../components/Veinti'
+import ScrollTop from '../components/ScrollTop'
+
 
 
 export default function Fotografia() {
   return (
-    <div id="fotografia" className="w-full flex bg-[#1F2041] min-h-contet">
+    <div id="fotografia" className="w-full flex bg-[#2b2048] min-h-contet">
       <div className="flex justify-center w-[860px] my-16 ml-auto mr-auto gap-[1rem] p-4 flex-col">
         <div className="titulo flex items-center gap-2">
 
@@ -17,10 +19,11 @@ export default function Fotografia() {
 
           </h2>
         </div>
-        <Santo />
+        <Veinti />
 
 
       </div>
+      <ScrollTop />
     </div>
   )
 }

@@ -9,16 +9,20 @@ const Licencias = () => {
     return (
         <div id="licencias" className="w-full h-screen flex bg-white min-h-content bg-[url('./assets/img/pattern.png')] bg-auto bg-repeat">
             <div className="flex justify-center w-[860px] my-16 ml-auto mr-auto gap-[1rem] p-4 flex-col">
-                <div className="titulo flex items-center gap-2">
 
-                    <MdSchool className='text-[35px] text-[#fabb3d]' />
 
-                    <h2 className='text-[40px] work-sans font-bold'>
+                <div className="titulo flex items-end gap-2">
 
-                        Licencias y Certificaciones
+                <MdSchool className='text-[35px] text-[#fabb3d]' />
+
+                    <h2 className='text-[40px] leading-9 text-black work-sans font-bold'>
+
+                        <span className='text-[25px] font-normal'>Licencias y </span> <br />Certificaciones
 
                     </h2>
                 </div>
+
+
                 <div className='bg-white border flex flex-col gap-5 border-slate-300 p-6'>
                     <div className="estudios flex gap-2">
                         <img src={uabc} alt="" className="estImg rounded-md w-[80px] h-[80px]" />

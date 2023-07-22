@@ -6,7 +6,7 @@ import f28s4 from '../assets/img/f28s4.jpg'
 import f28s5 from '../assets/img/f28s5.jpg'
 import f28s6 from '../assets/img/f28s6.jpg'
 import f28s7 from '../assets/img/f28s7.jpg'
-import f28s8 from '../assets/img/f28s1.jpg'
+import f28s8 from '../assets/img/f28s8.jpg'
 
 const Santo = () => {
     return (

@@ -1,24 +1,40 @@
 import React, {useState} from 'react'
-import mamalgama_01 from '../assets/img/mamalgama-01.jpg'
-import mamalgama_02 from '../assets/img/mamalgama-02.jpg'
-import mamalgama_03 from '../assets/img/mamalgama-03.jpg'
-import mamalgama_04 from '../assets/img/mamalgama-04.jpg'
+import f28s1 from '../assets/img/f28s1.jpg'
+import f28s2 from '../assets/img/f28s2.jpg'
+import f28s3 from '../assets/img/f28s3.jpg'
+import f28s4 from '../assets/img/f28s4.jpg'
+import f28s5 from '../assets/img/f28s5.jpg'
+import f28s6 from '../assets/img/f28s6.jpg'
+import f28s7 from '../assets/img/f28s7.jpg'
+import f28s8 from '../assets/img/f28s8.jpg'
 import Modal from './Modal'
 
-const Amalgama = () => {
+const Veinti = () => {
 
     const data = [
         {
-            "img": mamalgama_01
+            "img": f28s1
         },
         {
-            "img": mamalgama_02
+            "img": f28s2
         },
         {
-            "img": mamalgama_03
+            "img": f28s3
         },
         {
-            "img": mamalgama_04
+            "img": f28s4
+        },
+        {
+            "img": f28s5
+        },
+        {
+            "img": f28s6
+        },
+        {
+            "img": f28s7
+        },
+        {
+            "img": f28s8
         }
     ]
 
@@ -68,15 +84,16 @@ const handleRotationLeft = () => {
     return (
         <div className='wrapper'>
 
-            <p id="amalgama" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
+            <p id="veinti" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
 
-                Amalgama // Branding
+                28S // Fotografía Documental
 
             </p>
             <div className="disenoCards grid grid-cols-2 md:grid-cols-4 justify-center gap-2 w-full">
 
             {data.map((item, index) => (
-                <div key={index} className='disenoItem cursor-pointer overflow-hidden h-[200px] rounded-md'>
+                <div className="Polaroid h-[240px] relative bg-white shadow-md">
+                <div key={index} className='disenoItem mx-[6px] absolute top-[6px] left-0 right-0 cursor-pointer overflow-hidden h-[200px] rounded-md'>
                     <img
                     src={item.img} 
                     className='w-full 
@@ -86,6 +103,7 @@ const handleRotationLeft = () => {
                     rounded-md bg-slate-300'
                     onClick={() => handleClick(item, index)}
                     />
+                </div>
                 </div>
             ))}
             
@@ -102,4 +120,4 @@ const handleRotationLeft = () => {
     )
 }
 
-export default Amalgama
+export default Veinti
