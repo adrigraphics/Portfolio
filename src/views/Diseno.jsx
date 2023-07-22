@@ -22,9 +22,9 @@ export default function Diseno() {
         </div>
         <Salvia />
 
-        <Confidentas />
+        {/* <Confidentas />
 
-        <ConfidentasManual />
+        <ConfidentasManual /> */}
 
         <Amalgama />
 

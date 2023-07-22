@@ -2,6 +2,8 @@ import React from 'react'
 import { MdPhotoCamera } from 'react-icons/md'
 import Veinti from '../components/Veinti'
 import ScrollTop from '../components/ScrollTop'
+import Rabia from '../components/Rabia'
+import Sep19 from '../components/Sep19'
 
 
 
@@ -20,6 +22,8 @@ export default function Fotografia() {
           </h2>
         </div>
         <Veinti />
+        <Rabia />
+        <Sep19 />
 
 
       </div>

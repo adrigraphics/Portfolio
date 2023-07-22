@@ -65,6 +65,18 @@ const Licencias = () => {
                             <img src={codecademy} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
+                                    Navigation Design
+                                </p>
+                                <p className="montserrat text-[12px] text-[#8B74D3]">
+                                    Codecademy
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="licItem flex gap-3">
+                            <img src={codecademy} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
+                            <div className="details">
+                                <p className="ibm-plex text-[18px] text-[#808080] ">
                                     Introducción al diseño UX/UI
                                 </p>
                                 <p className="montserrat text-[12px] text-[#8B74D3]">
