@@ -11,7 +11,7 @@ const Licencias = () => {
             <div className="flex justify-center w-[860px] my-16 ml-auto mr-auto gap-[1rem] p-4 flex-col">
 
 
-                <div className="titulo flex items-end gap-2">
+                <div className="titulo flex items-end gap-2 mb-10">
 
                 <MdSchool className='text-[35px] text-[#fabb3d]' />
 
