@@ -12,15 +12,15 @@ export default function Navbar() {
     setIsOpen((prevState) => !prevState)
   }
   return (
-    <div className="navbar work-sans bg-transparent fixed top-0 px-5 lg:px-36 2xl:px-[400px] z-50">
+    <div className="navbar shadow-sm work-sans bg-white/[0.90] fixed top-0 px-6 py-2 lg:px-36 2xl:px-[400px] z-50">
       <div className="navbar-start">
-        <a className="text-lg font-medium text-slate-300 hover:text-slate-600" href="#">
+        <a className="text-lg font-medium  text-slate-400 hover:text-slate-600" href="#">
           adriGraphics
         </a>
       </div>
       <div className="navbar-end">
 
-      <button className=" text-slate-300 hover:text-slate-600 border-none " onClick={toggleDrawer}>
+      <button className=" text-slate-400 hover:text-slate-600 border-none " onClick={toggleDrawer}>
           <svg className="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" /></svg>
 
         </button>

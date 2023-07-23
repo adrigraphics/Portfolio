@@ -86,7 +86,7 @@ const handleRotationLeft = () => {
 
             <p id="salvia" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
 
-                Las Confidentas // Guía para publicar en Instagram
+                Las Confidentas // Guía de aborto con medicamentos
 
             </p>
             <div className="disenoCards grid grid-cols-2 md:grid-cols-4 justify-center gap-2 w-full">

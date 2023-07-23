@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { MdPhotoCamera } from 'react-icons/md'
 import Veinte from '../components/Veinte'
-import ScrollTop from '../components/ScrollTop'
 import Rabia from '../components/Rabia'
 import Diecinueve from '../components/Diecinueve'
+import Santocafeto from '../components/Santocafeto'
+
 
 
 
@@ -26,7 +27,7 @@ export default function Fotografia() {
           </div>
 
 
-          <div className="bloc-tabs flex flex-row flew-wrap gap-2 text-[#D6D6D6] work-sans text-[15px] cursor-pointer">
+          <div className="bloc-tabs flex flex-row flex-wrap gap-2 text-[#D6D6D6] work-sans text-[15px] cursor-pointer">
             <div
               className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(1)}>
@@ -48,6 +49,13 @@ export default function Fotografia() {
               Rabia Café
 
             </div>
+            <div
+              className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
+              onClick={() => toggleTab(4)}>
+
+              Santo Cafeto
+
+            </div>
 
           </div>
 
@@ -64,10 +72,12 @@ export default function Fotografia() {
           <div className={toggleState === 3 ? "content active-content" : "content"}>
             <Rabia />
           </div>
+          <div className={toggleState === 4 ? "content active-content" : "content"}>
+            <Santocafeto />
+          </div>
         </div>
 
       </div>
-      <ScrollTop />
     </div>
   )
 }

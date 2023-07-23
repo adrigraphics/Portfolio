@@ -1,40 +1,40 @@
 import React, {useState} from 'react'
-import S191 from '../assets/img/S191.jpg'
-import S192 from '../assets/img/S192.jpg'
-import S193 from '../assets/img/S193.jpg'
-import S194 from '../assets/img/S194.jpg'
-import S195 from '../assets/img/S195.jpg'
-import S196 from '../assets/img/S196.jpg'
-import S197 from '../assets/img/S197.jpg'
-import S198 from '../assets/img/S198.jpg'
+import sc1 from '../assets/img/sc1.jpg'
+import sc2 from '../assets/img/sc2.jpg'
+import sc3 from '../assets/img/sc3.jpg'
+import sc4 from '../assets/img/sc4.jpg'
+import sc5 from '../assets/img/sc5.jpg'
+import sc6 from '../assets/img/sc6.jpg'
+import sc7 from '../assets/img/sc7.jpg'
+import sc8 from '../assets/img/sc8.jpg'
 import Modal from './Modal'
 
-const Diecinueve = () => {
+const Santocafeto = () => {
 
     const data = [
         {
-            "img": S191
+            "img": sc1
         },
         {
-            "img": S192
+            "img": sc2
         },
         {
-            "img": S193
+            "img": sc3
         },
         {
-            "img": S194
+            "img": sc4
         },
         {
-            "img": S195
+            "img": sc5
         },
         {
-            "img": S196
+            "img": sc6
         },
         {
-            "img": S197
+            "img": sc7
         },
         {
-            "img": S198
+            "img": sc8
         }
     ]
 
@@ -84,9 +84,9 @@ const handleRotationLeft = () => {
     return (
         <div className='wrapper'>
 
-            <p id="diecinueve" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
+            <p id="rabia" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
 
-                Marcha por el 28S 2019 // Fotografía Documental
+                Rabia Café // Fotografía Comercial
 
             </p>
             <div className="disenoCards grid grid-cols-2 md:grid-cols-4 justify-center gap-2 w-full">
@@ -120,4 +120,4 @@ const handleRotationLeft = () => {
     )
 }
 
-export default Diecinueve
+export default Santocafeto
