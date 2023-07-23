@@ -9,7 +9,7 @@ import f28s7 from '../assets/img/f28s7.jpg'
 import f28s8 from '../assets/img/f28s8.jpg'
 import Modal from './Modal'
 
-const Veinti = () => {
+const Veinte = () => {
 
     const data = [
         {
@@ -84,9 +84,9 @@ const handleRotationLeft = () => {
     return (
         <div className='wrapper'>
 
-            <p id="veinti" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
+            <p id="veinte" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
 
-                28S // Fotografía Documental
+                Marcha por el 28S 2020 // Fotografía Documental
 
             </p>
             <div className="disenoCards grid grid-cols-2 md:grid-cols-4 justify-center gap-2 w-full">
@@ -120,4 +120,4 @@ const handleRotationLeft = () => {
     )
 }
 
-export default Veinti
+export default Veinte

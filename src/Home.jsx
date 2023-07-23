@@ -11,7 +11,7 @@ import Navbar from './views/Navbar';
 
 export default function Home() {
   return (
-    <div className="nunito animate__animated animate__fadeIn animate__slower">
+    <div className="selection:text-white selection:bg-[#8B74D3] nunito animate__animated animate__fadeIn animate__slower">
       <Navbar />
         <Hero />
         <Web />

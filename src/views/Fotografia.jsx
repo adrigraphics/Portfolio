@@ -1,33 +1,77 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { MdPhotoCamera } from 'react-icons/md'
-import Veinti from '../components/Veinti'
+import Veinte from '../components/Veinte'
 import ScrollTop from '../components/ScrollTop'
 import Rabia from '../components/Rabia'
-import Sep19 from '../components/Sep19'
+import Diecinueve from '../components/Diecinueve'
 
 
 
 export default function Fotografia() {
+
+  const [toggleState, setToggleState] = useState(1);
+  const toggleTab = (index) => {
+    setToggleState(index);
+  }
+
+
   return (
     <div id="fotografia" className="w-full flex bg-[#2b2048] min-h-contet">
       <div className="flex justify-center w-[860px] my-16 ml-auto mr-auto gap-[1rem] p-4 flex-col">
-        <div className="titulo flex items-center gap-2">
 
-          <MdPhotoCamera className='text-[35px] text-[#fabb3d]' />
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-5 w-full">
+          <div className="titulo flex items-center gap-2">
+            <MdPhotoCamera className='text-[35px] text-[#fabb3d]' />
+            <h2 className='text-[38px] text-white work-sans font-bold'>Fotografía</h2>
+          </div>
 
-          <h2 className='text-[40px] text-white work-sans font-bold'>
 
-            Fotografía
+          <div className="bloc-tabs flex flex-row gap-2 text-[#D6D6D6] work-sans text-[15px] cursor-pointer">
+            <div
+              className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
+              onClick={() => toggleTab(1)}>
 
-          </h2>
+              28S 2020
+
+            </div>
+            <div
+              className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
+              onClick={() => toggleTab(2)}>
+
+              28S 2019
+
+            </div>
+            <div
+              className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
+              onClick={() => toggleTab(3)}>
+
+              Rabia Café
+
+            </div>
+
+          </div>
+
         </div>
-        <Veinti />
-        <Rabia />
-        <Sep19 />
 
+
+        <div className="content-tabs">
+          <div className={toggleState === 1 ? "content active-content" : "content"}>
+            <Veinte />
+          </div>
+          <div className={toggleState === 2 ? "content active-content" : "content"}>
+            <Diecinueve />
+          </div>
+          <div className={toggleState === 3 ? "content active-content" : "content"}>
+            <Rabia />
+          </div>
+        </div>
 
       </div>
       <ScrollTop />
     </div>
   )
 }
+
+
+
+

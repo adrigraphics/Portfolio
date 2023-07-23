@@ -81,6 +81,8 @@ const handleRotationLeft = () => {
     setCurrentIndex(newIndex);
 };
 
+
+
     return (
         <div className='wrapper'>
 

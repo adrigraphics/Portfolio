@@ -9,7 +9,7 @@ import S197 from '../assets/img/S197.jpg'
 import S198 from '../assets/img/S198.jpg'
 import Modal from './Modal'
 
-const Sep19 = () => {
+const Diecinueve = () => {
 
     const data = [
         {
@@ -84,9 +84,9 @@ const handleRotationLeft = () => {
     return (
         <div className='wrapper'>
 
-            <p id="rabia" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
+            <p id="diecinueve" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
 
-                Rabia Café // Fotografía Comercial
+                Marcha por el 28S 2019 // Fotografía Comercial
 
             </p>
             <div className="disenoCards grid grid-cols-2 md:grid-cols-4 justify-center gap-2 w-full">
@@ -120,4 +120,4 @@ const handleRotationLeft = () => {
     )
 }
 
-export default Sep19
+export default Diecinueve

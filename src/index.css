@@ -40,6 +40,44 @@ html {
 }
 
 
+.tabs {
+  color: black;
+  background-color: #dddddd;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+
+.active-tabs {
+  color: white;
+  background-color: #8B74D3;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+.tabss {
+  color: #7f7f7f;
+  background-color: #ebebeb;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+
+
+.active-tabss {
+  color: white;
+  background-color: #8B74D3;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+.content {
+  display: none;
+}
+.active-content {
+  display: block;
+}
+
 
 
 
