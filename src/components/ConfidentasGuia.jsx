@@ -1,40 +1,40 @@
 import React, {useState} from 'react'
-import confidentas_01 from '../assets/img/confidentas-01.png'
-import confidentas_02 from '../assets/img/confidentas-02.png'
-import confidentas_03 from '../assets/img/confidentas-03.png'
-import confidentas_04 from '../assets/img/confidentas-04.png'
-import confidentas_05 from '../assets/img/confidentas-05.png'
-import confidentas_06 from '../assets/img/confidentas-06.png'
-import confidentas_07 from '../assets/img/confidentas-07.png'
-import confidentas_08 from '../assets/img/confidentas-08.png'
+import GUIA_01 from '../assets/img/GUIA-01.jpg'
+import GUIA_02 from '../assets/img/GUIA-02.jpg'
+import GUIA_03 from '../assets/img/GUIA-03.jpg'
+import GUIA_04 from '../assets/img/GUIA-04.jpg'
+import GUIA_05 from '../assets/img/GUIA-05.jpg'
+import GUIA_06 from '../assets/img/GUIA-06.jpg'
+import GUIA_07 from '../assets/img/GUIA-07.jpg'
+import GUIA_08 from '../assets/img/GUIA-08.jpg'
 import Modal from './Modal'
 
-const Confidentas = () => {
+const ConfidentasGuia = () => {
 
     const data = [
         {
-            "img": confidentas_01
+            "img": GUIA_01
         },
         {
-            "img": confidentas_02
+            "img": GUIA_02
         },
         {
-            "img": confidentas_03
+            "img": GUIA_03
         },
         {
-            "img": confidentas_04
+            "img": GUIA_04
         },
         {
-            "img": confidentas_05
+            "img": GUIA_05
         },
         {
-            "img": confidentas_06
+            "img": GUIA_06
         },
         {
-            "img": confidentas_07
+            "img": GUIA_07
         },
         {
-            "img": confidentas_08
+            "img": GUIA_08
         }
     ]
 
@@ -86,7 +86,7 @@ const handleRotationLeft = () => {
 
             <p id="salvia" className='ibm-plex text-[20px] mb-5 mt-10 text-gray-400'>
 
-                Las Confidentas Aborto Seguro // Rebranding
+                Las Confidentas // Guía para publicar en Instagram
 
             </p>
             <div className="disenoCards grid grid-cols-2 md:grid-cols-4 justify-center gap-2 w-full">
@@ -118,4 +118,4 @@ const handleRotationLeft = () => {
     )
 }
 
-export default Confidentas
+export default ConfidentasGuia

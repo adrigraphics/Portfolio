@@ -67,7 +67,7 @@ export default function Web() {
           <div className="webCards grid grid-cols-2 justify-center gap-2 md:gap-6">
             {data.map((item, index) => (
               <a href={item.url} target={item.target} key={index}
-              className='disenoItem relative cursor-pointer overflow-hidden h-[200px] rounded-md'>
+              className='disenoItem relative cursor-pointer overflow-hidden h-[150px] md:h-[200px] rounded-md'>
                 <img
                   src={item.img}
                   className='w-full

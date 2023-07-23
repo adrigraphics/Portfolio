@@ -2,7 +2,7 @@ import React from 'react'
 import { MdDesignServices } from 'react-icons/md'
 import Salvia from '../components/Salvia'
 import Confidentas from '../components/Confidentas'
-import ConfidentasManual from '../components/ConfidentasManual'
+import ConfidentasGuia from '../components/ConfidentasGuia'
 import Amalgama from '../components/Amalgama'
 
 
@@ -22,9 +22,9 @@ export default function Diseno() {
         </div>
         <Salvia />
 
-        {/* <Confidentas />
+        <Confidentas />
 
-        <ConfidentasManual /> */}
+        <ConfidentasGuia />
 
         <Amalgama />
 

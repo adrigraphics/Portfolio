@@ -7,7 +7,7 @@ import hubspot from '../assets/img/hubspot.png'
 
 const Licencias = () => {
     return (
-        <div id="licencias" className="w-full h-screen flex bg-white min-h-content bg-[url('./assets/img/pattern.png')] bg-auto bg-repeat">
+        <div id="licencias" className="w-full flex bg-white min-h-content bg-[url('./assets/img/pattern.png')] bg-auto bg-repeat">
             <div className="flex justify-center w-[860px] my-16 ml-auto mr-auto gap-[1rem] p-4 flex-col">
 
 
@@ -24,7 +24,7 @@ const Licencias = () => {
 
 
                 <div className='bg-white border flex flex-col gap-5 border-slate-300 p-6'>
-                    <div className="estudios flex gap-2">
+                    <div className="estudios flex items-center gap-2">
                         <img src={uabc} alt="" className="estImg rounded-md w-[80px] h-[80px]" />
                         <div className="details">
                             <p className="ibm-plex text-[24px] text-[#808080] ">Mercadotecnia</p>
@@ -37,7 +37,7 @@ const Licencias = () => {
 
                     <div className="grid grid-rows-1 md:grid-cols-2  gap-3 licItems">
 
-                        <div className="licItem flex gap-3">
+                        <div className="licItem flex items-center gap-3">
                             <img src={codecademy} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
@@ -49,7 +49,7 @@ const Licencias = () => {
                             </div>
                         </div>
 
-                        <div className="licItem flex gap-3">
+                        <div className="licItem flex items-center gap-3">
                             <img src={codecademy} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
@@ -61,7 +61,7 @@ const Licencias = () => {
                             </div>
                         </div>
 
-                        <div className="licItem flex gap-3">
+                        <div className="licItem flex items-center gap-3">
                             <img src={codecademy} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
@@ -73,7 +73,7 @@ const Licencias = () => {
                             </div>
                         </div>
 
-                        <div className="licItem flex gap-3">
+                        <div className="licItem flex items-center gap-3">
                             <img src={codecademy} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
@@ -85,7 +85,7 @@ const Licencias = () => {
                             </div>
                         </div>
 
-                        <div className="licItem flex gap-3">
+                        <div className="licItem flex items-center gap-3">
                             <img src={prrrgrammer} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
@@ -98,7 +98,7 @@ const Licencias = () => {
                         </div>
 
 
-                        <div className="licItem flex gap-3">
+                        <div className="licItem flex items-center gap-3">
                             <img src={prrrgrammer} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
@@ -110,7 +110,7 @@ const Licencias = () => {
                             </div>
                         </div>
 
-                        <div className="licItem flex gap-3">
+                        <div className="licItem flex items-center gap-3">
                             <img src={hubspot} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
@@ -122,7 +122,7 @@ const Licencias = () => {
                             </div>
                         </div>
 
-                        <div className="licItem flex gap-3">
+                        <div className="licItem flex items-center gap-3">
                             <img src={hubspot} alt="" className="estImg rounded-md w-[50px] h-[50px]" />
                             <div className="details">
                                 <p className="ibm-plex text-[18px] text-[#808080] ">
