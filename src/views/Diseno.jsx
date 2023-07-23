@@ -19,14 +19,14 @@ export default function Diseno() {
     <div id="diseno" className="w-full flex bg-white min-h-content">
       <div className="flex justify-center w-[860px] my-16 ml-auto mr-auto gap-[1rem] p-4 flex-col">
         
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-5 w-full">
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5 w-full">
           <div className="titulo flex items-center gap-2">
             <MdDesignServices className='text-[35px] text-[#fabb3d]' />
             <h2 className='text-[38px] text-black work-sans font-bold'>Diseño Gráfico</h2>
           </div>
 
 
-          <div className="bloc-tabs flex flex-row gap-2 text-[#D6D6D6] work-sans text-[15px] cursor-pointer">
+          <div className="bloc-tabs flex flex-row flex-wrap gap-2 text-[#D6D6D6] work-sans text-[15px] cursor-pointer">
             <div
               className={toggleState === 1 ? "tabss active-tabss" : "tabss"}
               onClick={() => toggleTab(1)}>
@@ -35,15 +35,22 @@ export default function Diseno() {
 
             </div>
             <div
-              className={toggleState === 3 ? "tabss active-tabss" : "tabss"}
-              onClick={() => toggleTab(3)}>
+              className={toggleState === 2 ? "tabss active-tabss" : "tabss"}
+              onClick={() => toggleTab(2)}>
 
               Las Confidentas
 
             </div>
             <div
-              className={toggleState === 2 ? "tabss active-tabss" : "tabss"}
-              onClick={() => toggleTab(2)}>
+              className={toggleState === 3 ? "tabss active-tabss" : "tabss"}
+              onClick={() => toggleTab(3)}>
+
+              Guía
+
+            </div>
+            <div
+              className={toggleState === 4 ? "tabss active-tabss" : "tabss"}
+              onClick={() => toggleTab(4)}>
 
               Amalgama
 
@@ -59,12 +66,15 @@ export default function Diseno() {
             <Salvia />
           </div>
           <div className={toggleState === 2 ? "content active-content" : "content"}>
-            <Amalgama />
+            <Confidentas />
           </div>
           <div className={toggleState === 3 ? "content active-content" : "content"}>
-            <Confidentas />
             <ConfidentasGuia />
           </div>
+          <div className={toggleState === 4 ? "content active-content" : "content"}>
+            <Amalgama />
+          </div>
+          
         </div>
 
       </div>
